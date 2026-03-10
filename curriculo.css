@@ -1,0 +1,212 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+/* BODY */
+
+body{
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+max-width:1000px;
+margin:auto;
+padding:40px;
+color:#333;
+background:#f4f4f4;
+line-height:1.6;
+}
+
+
+/* HEADER */
+
+header{
+text-align:center;
+margin-bottom:30px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 3px 8px rgba(0,0,0,0.05);
+}
+
+
+/* TITULOS */
+
+h1{
+background:#acafd4;
+color:#061761;
+font-size:42px;
+padding:15px;
+border-radius:6px;
+margin-bottom:10px;
+}
+
+h2{
+color:#061761;
+font-size:28px;
+margin-bottom:15px;
+border-bottom:3px solid #061761;
+padding-bottom:6px;
+}
+
+h3{
+margin-top:18px;
+color:#222;
+font-weight:600;
+}
+
+
+/* TEXTO */
+
+p{
+margin:10px 0;
+text-align:justify;
+}
+
+.center{
+text-align:center;
+}
+
+
+/* FOTO */
+
+.imgContainer{
+display:flex;
+justify-content:center;
+margin:25px 0;
+}
+
+.imgContainer img{
+width:200px;
+height:auto;
+border-radius:50%;
+border:4px solid #acafd4;
+display:block;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* LISTAS */
+
+ul{
+margin-top:8px;
+margin-bottom:15px;
+padding-left:20px;
+}
+
+li{
+margin-bottom:6px;
+}
+
+
+/* LINKS */
+
+a{
+color:#061761;
+text-decoration:none;
+font-weight:500;
+transition:0.2s;
+}
+
+a:hover{
+color:#0d2ad1;
+text-decoration:underline;
+}
+
+
+/* MENU SOCIAL */
+
+.menu{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:15px;
+flex-wrap:wrap;
+}
+
+.menu li{
+list-style:none;
+}
+
+.menu a{
+background:#d7d7d7;
+padding:10px 18px;
+border-radius:6px;
+transition:0.2s ease;
+}
+
+.menu a:hover{
+background:#061761;
+color:white;
+}
+
+
+/* SECTIONS */
+
+section{
+background:white;
+padding:22px;
+border-radius:10px;
+margin-bottom:22px;
+box-shadow:0 3px 8px rgba(0,0,0,0.05);
+}
+
+
+/* STACK TECNOLOGICA */
+
+.stack-grid{
+display:flex;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.stack-grid div{
+min-width:180px;
+}
+
+.stack-grid strong{
+display:block;
+margin-bottom:8px;
+font-size:16px;
+color:#061761;
+}
+
+
+/* TECNOLOGIAS DOS PROJETOS */
+
+.tech{
+display:block;
+margin:6px 0 8px 0;
+font-size:14px;
+color:#666;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width:768px){
+
+body{
+padding:20px;
+}
+
+h1{
+font-size:32px;
+}
+
+h2{
+font-size:24px;
+}
+
+.stack-grid{
+flex-direction:column;
+gap:20px;
+}
+
+.imgContainer img{
+width:150px;
+}
+
+}
