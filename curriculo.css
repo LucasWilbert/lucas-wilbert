@@ -20,33 +20,6 @@ line-height:1.6;
 }
 
 
-/* REMOVE BARRA DO GOOGLE TRANSLATE */
-
-.goog-te-banner-frame.skiptranslate {
-display:none !important;
-}
-
-body {
-top:0 !important;
-}
-
-
-/* BOTÃO DE TRADUÇÃO */
-
-.translate{
-position:absolute;
-top:20px;
-right:20px;
-font-size:14px;
-}
-
-#google_translate_element select{
-padding:5px 8px;
-border-radius:5px;
-border:1px solid #ccc;
-}
-
-
 /* HEADER */
 
 header{
@@ -57,6 +30,27 @@ background:white;
 padding:30px;
 border-radius:10px;
 box-shadow:0 3px 8px rgba(0,0,0,0.05);
+}
+
+
+/* SELETOR DE IDIOMA */
+
+.language-switch{
+position:absolute;
+top:20px;
+right:25px;
+font-size:14px;
+}
+
+.language-switch a{
+text-decoration:none;
+color:#061761;
+font-weight:600;
+margin:0 5px;
+}
+
+.language-switch a:hover{
+text-decoration:underline;
 }
 
 
@@ -237,10 +231,23 @@ gap:20px;
 width:150px;
 }
 
-.translate{
-position:static;
-margin-bottom:15px;
+.language-switch{
+max-width:1000px;
+margin:auto;
 text-align:right;
+margin-bottom:10px;
+font-size:13px;
+font-weight:600;
+}
+
+.language-switch a{
+text-decoration:none;
+color:#061761;
+margin:0 3px;
+}
+
+.language-switch a:hover{
+text-decoration:underline;
 }
 
 }
