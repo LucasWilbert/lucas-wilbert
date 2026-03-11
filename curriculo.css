@@ -20,9 +20,37 @@ line-height:1.6;
 }
 
 
+/* REMOVE BARRA DO GOOGLE TRANSLATE */
+
+.goog-te-banner-frame.skiptranslate {
+display:none !important;
+}
+
+body {
+top:0 !important;
+}
+
+
+/* BOTÃO DE TRADUÇÃO */
+
+.translate{
+position:absolute;
+top:20px;
+right:20px;
+font-size:14px;
+}
+
+#google_translate_element select{
+padding:5px 8px;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+
 /* HEADER */
 
 header{
+position:relative;
 text-align:center;
 margin-bottom:30px;
 background:white;
@@ -207,6 +235,12 @@ gap:20px;
 
 .imgContainer img{
 width:150px;
+}
+
+.translate{
+position:static;
+margin-bottom:15px;
+text-align:right;
 }
 
 }
